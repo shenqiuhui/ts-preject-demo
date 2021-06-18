@@ -13,6 +13,7 @@ interface Greeting {
 
 const Hello: React.FC<Greeting> = (props) => {
   const { name, firstName, lastName, children } = props;
+
   return (
     <Button>Hello {name} {firstName} {lastName}</Button>
   );

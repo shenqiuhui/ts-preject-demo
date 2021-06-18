@@ -29,7 +29,7 @@ class HelloClass extends Component<Greeting, State> {
   render() {
     return (
       <>
-        <p>{this.state.count}</p>
+        <p>点击了 {this.state.count} 次</p>
         <Button onClick={() => this.setState({ count: this.state.count + 1 })}>
           Hello {this.props.name} {this.props.firstName} {this.props.lastName}
         </Button>
