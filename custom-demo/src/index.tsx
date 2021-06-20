@@ -5,4 +5,4 @@ import Hello from './components/demo/Hello';
 ReactDom.render(
   <Hello name="TypeScript" />,
   document.querySelectorAll('.app')[0]
-)
+);
